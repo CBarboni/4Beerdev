@@ -115,3 +115,27 @@ footer {
   left: 10px;
   margin-right: 50px;
 }
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 300px; /* Largura do carrossel */
+  position: relative;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button {
+  margin-top: 10px;
+}
+#nextButton {
+  font-size: 18px;
+  padding: 10px 20px;
+}
