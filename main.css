@@ -18,7 +18,7 @@ body {
     align-items: center;
   }
 
-  .navbar a {
+  /* .navbar a {
     float: right;
     display: block;
     color: rgb(255, 255, 255);
@@ -29,12 +29,29 @@ body {
   }
 
   .navbar a:hover {
-    background-color: #000000;
-    border: 2px solid rgb(0, 0, 0);
+    /* background-color: #000000;
+    border: 2px solid rgb(0, 0, 0); 
     color: #ffffff;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra elevada */
-  }
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+  } */
+
+  .navbar a {
+    background-color: #f2cb0c;; /* Cor de fundo normal */
+    color: #fff; /* Cor do texto normal */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 1.8s ease; /* Efeito de transição suave */
+
+    /* Efeito de brilho no hover */
+}
+
+.navbar a:hover {
+    background-color: #bb9c00;; /* Nova cor de fundo no hover */
+    box-shadow: 0px 0px 10px 0px #bb9c00; /* Efeito de sombra suave */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
 
   .cabecalho {
     
