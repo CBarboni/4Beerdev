@@ -7,24 +7,31 @@ body {
   .navbar {
     background-color: #ffffff;
     overflow: hidden;
-    /* top: 0;
+     /* top: 0;
     right: 0;
-    left: 0; */
+    left: 0;  */
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar a {
     float: right;
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 30px 30px;
+    padding: 20px 20px;
     text-decoration: none;
+    margin-left: 50px;
   }
 
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: #000000;
     border: 2px solid rgb(0, 0, 0);
-    color: black;
+    color: #ffffff;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra elevada */
   }
@@ -65,7 +72,7 @@ body {
   }
 
   .cabecalho a:hover {
-    background-color: #ffd900;
+    background-color: #f2cb0c;
     color: rgb(0, 0, 0);
     border-radius: 10px;
   }
@@ -96,14 +103,15 @@ footer {
 .navbar {
   /* position: fixed; Define a posição como fixa */
   /* bottom: 0; Coloca o rodapé na parte inferior da janela do navegador */
-  background-color: #ffd900;; /* Cor de fundo do rodapé */
+  background-color: #f2cb0c;; /* Cor de fundo do rodapé */
   color: #fff; /* Cor do texto no rodapé */
   /* padding: 1px; Espaçamento interno */
   /* width: 100%; Ocupa a largura completa da janela */
   /* text-align: center; Centraliza o conteúdo no rodapé */
 }
 .logoinicial{
-  width: 150px;
+  width: 100px;
   float: left;
   left: 10px;
+  margin-right: 50px;
 }
