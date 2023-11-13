@@ -99,6 +99,10 @@ footer {
   text-align: center;
 }
 
+.imagemlogo4beer{
+  margin-left: 900px;
+}
+
 .logoinicial {
   width: 100px;
   margin-right: 20px;
@@ -185,4 +189,29 @@ button {
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+/* styles.css */
+
+/* Ajuste o tamanho do carrossel conforme necessário */
+#carouselExample {
+  width: 50%;
+  margin: auto;
+}
+
+/* Se desejar ajustar o tamanho dos itens do carrossel individualmente */
+.carousel-inner .carousel-item img {
+  /* Adicione estilos aqui */
+  width: 100%; /* 100% da largura do item do carrossel */
+  height: 500px; /* Altura automática para manter a proporção */
+  object-fit: cover;
+  border-radius: 12px;
+}
+.container {
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: auto;
+  margin-top: 50px; /* Ajuste conforme necessário */
+}
+.btn-primary{
+  width: 80px;
 }

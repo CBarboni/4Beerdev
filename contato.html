@@ -21,39 +21,45 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti repudiandae unde officiis. Laboriosam nihil, impedit, sunt eum sequi consectetur ratione aut facere sapiente minus corrupti tenetur recusandae, culpa expedita.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores consequatur a nihil ex. In ut eveniet, quia beatae quo, nulla exercitationem ipsa provident odit, molestiae autem? Possimus, quas quo? Odio?</p>
     </div>
 
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Telefone:</label>
-        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <p>Assunto:</p>
-      <select class="form-select" aria-label="Default select example">
-        <!-- <option selected>Assunto</option> -->
-        <option value="1">Quero saber mais</option>
-        <option value="2">Reclamação</option>
-        <option value="3">Sugestão</option>
-      </select>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="container">
+        <form action="https://formsubmit.co/cleber@4beerdev.com.br" method="POST">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Telefone:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Digite seu telefone" name="telefone" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Digite seu email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Assunto:</label>
+            <select class="form-select" name="options" aria-label="Assunto">
+              <option selected>Escolha o assunto</option>
+              <option value="1">Quero saber mais</option>
+              <option value="2">Reclamação</option>
+              <option value="3">Sugestão</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
 
-    <footer>
+      <footer>
         <div class="cabecalho">
           <a href="#">Siga-nos:</a>
           <a href="https://br.linkedin.com/company/4sys-sistemas" target="_blank"><i class="bi bi-linkedin"></i></a>
           <a href="https://www.instagram.com/sistemas.4sys/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <div class="cabecalho2">
-            <a href="#">Ligue: 19 99631-2104</a>
-            <a href="#">E-mail: atendimento@4syssistemas.com.br</a>
-          </div>
+          <img class="imagemlogo4beer" src="/imagem/4beer_amarelo_recortado.png" alt="logo4beer">
+          <a href="#">Ligue: 19 99631-2104</a>
+          <a href="#">E-mail: atendimento@4syssistemas.com.br</a> 
         </div>
       </footer>
   </body>
