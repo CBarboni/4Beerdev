@@ -215,3 +215,15 @@ button {
 .btn-primary{
   width: 80px;
 }
+
+.container_card {
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin-left: 370px;
+}
+
+.card {
+  margin: 55%; /* Adiciona algum espaço entre as cartas */
+  
+
+}
