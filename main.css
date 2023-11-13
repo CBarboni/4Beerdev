@@ -1,18 +1,32 @@
-body {
-  font-family: Arial, sans-serif;
+body{
+  background-image: url('imagem/amarelo_Claro.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-position: center;
   margin: 0;
   padding: 0;
-  background-color: #e5e779;
+}
+
+body.pagina2 {
+  background-image: url('imagem/amarelo_Claro.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-color: rgba(180, 116, 55, 0.7);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-  background-color: #f2cb0c;
+  background-image: url('/imagem/SL_031721_41490_22.jpg');
+  background-size: cover;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 5px;
 }
 
 .navbar a {
@@ -26,9 +40,10 @@ body {
 
 .navbar a:hover {
   background-color: #bb9c00;
-  box-shadow: 0px 0px 10px 0px #bb9c00;
-  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #bb9c00 ;
+  cursor: pointer ;
 }
+
 
 .cabecalho a {
   float: left;
@@ -90,9 +105,9 @@ footer {
   background-color: transparent;
 }
 
-.logoinicial:hover {
+/* .logoinicial:hover {
   background-color: #f2cb0c;
-}
+} */
 
 .carousel-container {
   display: flex;
@@ -126,11 +141,13 @@ footer {
 
 .carousel-slide.inativo {
   opacity: 0;
+  display: none;
   pointer-events: none;
 }
 
 .carousel-slide.ativo {
   opacity: 1;
+  display: block;
 }
 
 button {
