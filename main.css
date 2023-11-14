@@ -170,6 +170,7 @@ button {
   padding: 10px 20px;
 }
 
+
 .texto-principal h1,
 .texto-principal p {
   text-align: center;
@@ -291,4 +292,52 @@ color: #000000;
   text-transform: uppercase;
   margin-bottom: 300px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Adicione as regras de estilo para telas pequenas (sm) aqui */
+@media (max-width: 576px) {
+  .texto-principal2,
+  .texto-principal h1 {
+    font-size: 2rem; /* Tamanho do título para telas pequenas */
+  }
+  .texto-principal2,
+  .texto-principal p {
+    font-size: 1rem; /* Tamanho do parágrafo para telas pequenas */
+  }
+}
+
+/* Adicione as regras de estilo para telas médias (md) aqui */
+@media (min-width: 577px) and (max-width: 768px) {
+  .texto-principal2,
+  .texto-principal h1 {
+    font-size: 2.5rem; /* Tamanho do título para telas médias */
+  }
+  .texto-principal2,
+  .texto-principal p {
+    font-size: 1.2rem; /* Tamanho do parágrafo para telas médias */
+  }
+}
+
+/* Adicione as regras de estilo para telas grandes (lg) aqui */
+@media (min-width: 769px) and (max-width: 992px) {
+  .texto-principal2,
+  .texto-principal h1 {
+    font-size: 3rem; /* Tamanho do título para telas grandes */
+  }
+  .texto-principal2,
+  .texto-principal p {
+    font-size: 1.5rem; /* Tamanho do parágrafo para telas grandes */
+  }
+}
+
+/* Adicione as regras de estilo para telas extra grandes (xl) aqui */
+@media (min-width: 993px) {
+  .texto-principal2,
+  .texto-principal h1 {
+    font-size: 4rem; /* Tamanho do título para telas extra grandes */
+  }
+  .texto-principal2,
+  .texto-principal p {
+    font-size: 1.8rem; /* Tamanho do parágrafo para telas extra grandes */
+  }
 }
