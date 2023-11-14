@@ -220,15 +220,15 @@ button {
   width: 80px;
 }
 
-.container_card {
+/* .container_card {
   width: 100%;
-  max-width: 800px; /* Ajuste conforme necessário */
+  max-width: 800px;
   margin-left: 440px;
   
-}
+} */
 
 .card {
-  margin: 35%; /* Adiciona algum espaço entre as cartas */
+  /* margin: 35%; */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 01);
   border-radius: 12px;
 }
@@ -382,3 +382,75 @@ color: #000000;
     margin-right: auto;
   }
 }
+
+
+
+
+
+/* Adicione as regras de estilo para telas pequenas (sm) aqui */
+@media (max-width: 576px) {
+  .container_card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 15%;
+    margin-bottom: 20px;
+    width: 90%; /* Reduzir a largura dos cards para evitar que fiquem muito próximos das bordas */
+    margin-left: 15%; /* Adicionar uma pequena margem à esquerda */
+    margin-right: 15%; /* Adicionar uma pequena margem à direita */
+  }
+}
+
+/* Adicione as regras de estilo para telas médias (md) aqui */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container_card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Adicione as regras de estilo para telas grandes (lg) aqui */
+@media (min-width: 769px) and (max-width: 992px) {
+  .container_card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Adicione as regras de estilo para telas extra grandes (xl) aqui */
+@media (min-width: 993px) {
+  .container_card {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between; /* Distribuir os cards igualmente na linha */
+    margin-left: 23%;
+  }
+
+  .card {
+    margin-top: 100px;
+    /* margin-left: 1%; */
+    margin-right: 90px;
+    margin-bottom: 20px;
+    width: 48%;
+  }
+}
+
+
+
