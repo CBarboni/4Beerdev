@@ -43,6 +43,8 @@
       </button>
     </div>
 
+<!-- /* Cards exibindo os apps da loja */ -->
+
     <div class="container_card">
       <div class="row">
         <div class="col-md-6">
@@ -51,9 +53,9 @@
             <div class="card-body">
               <h5 class="card-title">4BEER</h5>
               <p class="card-text">Cansado de ir correndo no mercadinho pegar a coca ou a cerveja de domingo? A 4Beer chegou pra ficar do seu lado quando esse momento chegar! basta escanear o QRcode e pegar a bebida da sua escolha, e depois pagar pelo app, simples, fácil e rápido! Geladeiras de auto-atendimento 4Beer.</p>
-              <a href="#" class="btn btn-primary">
-                <i class="bi bi-google"></i></a>
-              <a href="#" class="btn btn-primary">
+              <a href="https://play.google.com/store/apps/details?id=com.mycompany.FourBeer" target="_blank" class="btn btn-primary">
+                <i class="bi bi-android"></i></a>
+              <a href="https://apps.apple.com/br/app/4beer/id6467130296" target="_blank" class="btn btn-primary">
               <i class="bi bi-apple"></i></a>
             </div>
           </div>
@@ -63,27 +65,63 @@
             <img src="/imagem/4BBER_1024X1024_SEMFUNDO.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">4BEERSERV</h5>
-              <p class="card-text">4BeerServ é o aplicativo que coloca o controle da sua experiência de chope nas palmas das suas mãos. Com esta solução, você pode desfrutar do seu chope preferido de forma rápida e eficiente, através do autoatendimento. Pague pelo próprio app, selecione a quantidade desejada e aproveite.</p>
-              <a href="#" class="btn btn-primary">
-                <i class="bi bi-google"></i></a>
-              <a href="#" class="btn btn-primary">
+              <p class="card-text">4BeerServ é o aplicativo que coloca o controle da sua experiência de chope nas palmas das suas mãos. Com esta solução, você pode desfrutar do seu chope preferido de forma rápida e eficiente, através do autoatendimento. Pague pelo próprio app, selecione a quantidade desejada e aproveite o chope.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.mycompany.FourBeerServ" target="_blank" class="btn btn-primary">
+                <i class="bi bi-android"></i></a>
+              <a href="https://apps.apple.com/br/app/4beerserv/id6468958710" target="_blank" class="btn btn-primary">
               <i class="bi bi-apple"></i></a>
             </div>
           </div>
         </div>
       </div>
     </div>
- <!-- ... Seu código HTML anterior ... -->
 
-<!-- <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Inicia o carrossel
-    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
-      interval: 5000, // Define o intervalo para 5000 milissegundos (5 segundos)
-      wrap: true // Faz com que o carrossel volte ao primeiro slide após o último
-    });
-  });
-</script> -->
+ <!-- ... Carousel com imagens das aplicações web ... -->
+
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imagem/11.jpeg" class="d-block w-100" alt="login">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Na WEB é ainda mais fácil</h5>
+        <p>Gerencie seu aplicativo de qualquer lugar</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagem/2_desfocada.jpg" class="d-block w-100" alt="editperfil">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Personalize suas informações</h5>
+        <p>Edite seu perfil de acesso também através da WEB</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imagem/3_desfocada.jpg" class="d-block w-100" alt="cadastrochopeira">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gerencia suas chopeiras e geladeiras</h5>
+        <p>Através da web agora é possível editar todas as informações de suas geladeiras e chopeiras.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon2" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon2" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="texto-principal2">
+  <h1>Se interessou?</h1>
+  <p>Não deixe de fazer um orçamento</p>
+
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="index.js"></script>
