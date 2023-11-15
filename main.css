@@ -99,9 +99,9 @@ footer {
   text-align: center;
 }
 
-.imagemlogo4beer{
+/* .imagemlogo4beer{
   margin-left: 900px;
-}
+} */
 
 .logoinicial {
   width: 100px;
@@ -461,3 +461,26 @@ button {
 
 
 
+/* Adicione estas regras CSS no seu arquivo CSS existente */
+
+/* Estilos padrão para telas grandes */
+.contato-container {
+  max-width: 500px;
+  /* margin: auto; */
+  margin-bottom: 100px;
+
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+  .contato-container {
+    padding: 10px;
+    margin-bottom: 150px;
+  
+  }
+  
+  /* Adicione mais estilos conforme necessário para telas menores */
+}
+.btn{
+  background-color: #f2cb0c;
+}
