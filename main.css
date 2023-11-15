@@ -484,3 +484,15 @@ button {
 .btn{
   background-color: #f2cb0c;
 }
+
+
+.politicaprincipal{
+  text-align: center; 
+}
+
+.texto-politica{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 150px;
+}
