@@ -295,7 +295,7 @@ button {
 .texto-principal2 p {
   font-size: 26px;
   text-transform: uppercase;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -480,7 +480,11 @@ button {
   /* Adicione mais estilos conforme necessário para telas menores */
 }
 .btn{
+  border: #fff;
   background-color: #f2cb0c;
+}
+.btn:hover{
+  background-color: #bb9c00;
 }
 
 

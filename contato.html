@@ -31,44 +31,92 @@
   </div>
 </nav>
 
-<div class="container mt-4">
-  <div class="texto-principal text-center">
-    <h1 class="display-4">ENTRE EM CONTATO COM NOSSA EQUIPE</h1>
-    <p class="lead">Preencha o formulário abaixo com suas perguntas, comentários ou solicitações. Estamos ansiosos para ouvir de você e fornecer a melhor experiência possível.</p>
-  </div>
-</div>
+     <!-- Formulário permanece inalterado a partir do código anterior -->
+     <div class="primeirotexto">
+      <div class="col-md-6 offset-md-3 text-center">
+        <b class="mb-2">Fale conosco</b>
+        <h2 class="mb-2">Tem um projeto em mente?</h2>
+        <p class="mb-4">Vamos conversar.</p>
+      </div>
+    </div>
 
-    <div class="container contato-container mt-4">
+
+<!-- Adicione este trecho antes do formulário -->
+<div class="container mt-5">
+    <div class="row">
+  
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card text-center">
+          <img src="/imagem/hid-icon-133.png" class="card-img-top mx-auto" style="width: 30px;" alt="Imagem 1">
+          <div class="card-body">
+            <h5 class="card-title">Endereço</h5>
+            <p class="card-text">Rua Bororó, 653, Indaiatuba-SP</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card text-center">
+          <img src="/imagem/hid-icon-134.png" style="width: 30px;" class="card-img-top mx-auto" alt="Imagem 2">
+          <div class="card-body">
+            <h5 class="card-title">E-mail</h5>
+            <p class="card-text">atendimento@4beerdev.com.br</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card text-center">
+          <img src="/imagem/hid-icon-135.png" style="width: 30px;" class="card-img-top mx-auto" alt="Imagem 3">
+          <div class="card-body">
+            <h5 class="card-title">Informações de Contato</h5>
+            <p class="card-text">19 99631-2104</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <b class="mb-2">Envie sua mensagem</b>
+        <p class="mb-2">Preencha o formulário com as informações da sua necessidade, que entraremos em contato. Será um prazer atendê-lo.</p>
         <form action="https://formsubmit.co/cleber@4beerdev.com.br" method="POST">
           <div class="mb-3">
-            <label for="exampleFormControlInput" class="form-label">Nome:</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" name="name" required>
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput" class="form-label">Telefone:</label>
-            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Digite seu telefone" name="telefone" required>
+            <label for="telefone" class="form-label">Telefone:</label>
+            <input type="tel" class="form-control" id="telefone" name="telefone" required>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Digite seu email" name="email" required>
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
           <div class="mb-3">
-            <label class="form-label">Assunto:</label>
-            <select class="form-select" name="options" aria-label="Assunto">
-              <option selected>Escolha o assunto</option>
-              <option value="1">Quero saber mais</option>
-              <option value="2">Reclamação</option>
-              <option value="3">Sugestão</option>
-            </select>
+            <label for="assunto" class="form-label">Assunto:</label>
+            <input type="text" class="form-control" id="assunto" name="assunto" required>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea" class="form-label">Mensagem:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensagem" required></textarea>
-          </div><div class="text-center mt-3">
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
         </form>
       </div>
+    </div>
+  </div>
 
       <footer class="footer">
         <div class="container">
@@ -82,6 +130,7 @@
               <h5>Contato:</h5>
               <p><i class="bi bi-telephone"></i> 19 99631-2104</p>
               <p><i class="bi bi-envelope"></i> atendimento@4beerdev.com.br</p>
+              <a  href="https://wa.me/5519996312104?text=Ol%C3%A1%2C+tudo+bem%3F+Vim+do+site+da+4Beer.+" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
             </div>
             <div class="col-md-6">
                 <img src="/imagem/4beer_amarelo_recortado.png" alt="logofooter">
