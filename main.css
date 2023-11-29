@@ -44,37 +44,41 @@ body.pagina2 {
   cursor: pointer ;
 }
 
+/* Estilo para o footer */
+.footer {
+  background-color: #333; /* Adapte a cor de fundo conforme necessário */
+  color: #fff; /* Adapte a cor do texto conforme necessário */
+  padding: 30px 0;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+}
 
-.cabecalho a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+/* Estilo para os ícones sociais no footer */
+.social-icon {
+  font-size: 24px;
+  color: #fff; /* Adapte a cor do ícone conforme necessário */
+  margin-right: 10px;
+}
+
+/* Estilo para os links no footer */
+.footer a {
+  color: #fff; /* Adapte a cor do link conforme necessário */
   text-decoration: none;
 }
 
-.cabecalho2 {
+/* Estilo para os links no hover no footer */
 
-  overflow: hidden;
- 
-  top: 0;
-  right: 0;
-  left: 50;
+
+.bi-linkedin:hover {
+  color: rgb(18, 95, 182); /* Adapte a cor do ícone conforme necessário */ 
 }
-
-.cabecalho2 a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 25px;
-  text-decoration: none;
+.bi-instagram:hover{
+  color: pink
 }
-
-.cabecalho a:hover {
-  /* background-color: #f2cb0c; */
-  color: #f2cb0c;
-  border-radius: 10px;
+.yellowfoot:hover{
+  color: yellow;
 }
 
 .acesso1 {
@@ -87,16 +91,6 @@ body.pagina2 {
   position: absolute;
   top: 45px;
   left: 1650px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  background-color: #333;
-  color: #fff;
-  padding: 3px;
-  width: 100%;
-  text-align: center;
 }
 
 /* .imagemlogo4beer{
@@ -277,6 +271,10 @@ button {
   pointer-events: none;
   object-fit: cover;
 } */
+.texto-principal{
+  margin-top: 100px;
+}
+
 
 .texto-principal2 h1,
 .texto-principal2 p {
